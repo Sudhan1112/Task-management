@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173" || "https://task-management-r2sg.onrender.com", credentials: true }));
+app.use(cors());
 app.use(cookieParser());
 
 // Routes
