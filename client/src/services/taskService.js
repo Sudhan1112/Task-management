@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/tasks';
+const API_URL = 'https://task-management-r2sg.onrender.com/api/tasks';
 
 // Configure axios with credentials
 axios.defaults.withCredentials = true;
