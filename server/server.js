@@ -15,7 +15,7 @@ connectDB();
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173'], // Set frontend URL explicitly (No '*')
+    origin: ['http://localhost:5173', 'https://task-management-khaki-kappa.vercel.app'], // Set frontend URL explicitly (No '*')
     credentials: true, // Allow credentials (cookies, auth headers, etc.)
     methods: 'GET, POST, PUT, DELETE, OPTIONS',
     allowedHeaders: 'Content-Type, Authorization'
