@@ -3,8 +3,8 @@ const Task = require("../models/Task");
 // ✅ Create Task
 exports.createTask = async (req, res) => {
   try {
-    const { title, description } = req.body;
-    const newTask = new Task({ user: req.user.userId, title, description });
+    const { title, description, category } = req.body;
+    const newTask = new Task({ user: req.user.userId, title, description,category });
     await newTask.save();
     res.status(201).json(newTask);
   } catch (error) {
