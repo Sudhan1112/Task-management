@@ -186,4 +186,4 @@ npm run dev
 ## 📄 License
 MIT License - See `LICENSE` for details
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by Sudhan
