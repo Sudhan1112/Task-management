@@ -182,8 +182,3 @@ npm run dev
 5. Open a Pull Request
 
 ---
-
-## 📄 License
-MIT License - See `LICENSE` for details
-
-Built with ❤️ by Sudhan
