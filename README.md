@@ -175,10 +175,9 @@ npm run dev
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/awesome-feature`
-3. Commit changes: `git commit -m 'Add awesome feature'`
-4. Push to branch: `git push origin feature/awesome-feature`
-5. Open a Pull Request
-
+1. Fork the repository.
+2. Create feature branch: `git checkout -b feature/awesome-feature`.
+3. Commit changes: `git commit -m 'Add awesome feature'`.
+4. Push to branch: `git push origin feature/awesome-feature`.
+5. Open a Pull Request.
 ---
